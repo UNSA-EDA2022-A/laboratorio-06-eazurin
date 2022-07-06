@@ -40,5 +40,6 @@ public class Exercise1 {
     	}
     	else //Si ambos nodos son nulos, es porque terminamos de recorrer los bst y son similares
     		return true;
+    }
     	
 }
