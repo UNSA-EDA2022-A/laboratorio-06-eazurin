@@ -21,7 +21,7 @@ public class BST<E extends Comparable<E>> {
             // buscamos el lugar para inserción
             int resC = actual.data.compareTo(x);
             if (resC == 0)
-                return null;
+                 return actual; //Profesor, corregi esto porque podia reemplazar la raiz y el arbol se eliminaba
             if (resC < 0)
                 res.right = insertNode(x, actual.right);
             else
